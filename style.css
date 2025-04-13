@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #adb7ab;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the body take the full viewport height */
+    margin: 0; /* Remove default margin on the body */
+  }
+  
+  .container {
+    background: #c6c5c2;
+    padding: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 750px; /* Set the container width */
+    height: 500px; /* Set the container height */
+    display: flex;
+    flex-direction: column;  /* Stack children (squares, buttons, etc.) vertically */
+    justify-content: center; /* Center contents vertically inside the container */
+    align-items: center; 
+    text-align: center;
+  }
+
+  .imgbox{
+    background: #bf9bd5;
+    width: 350px;
+    height: 200px; 
+    flex-direction: row;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px;
+    column-gap: 100px;
+  }
+
+  .buttonbox{
+    background: #d59bb6;
+    width: 50px;
+    height: 20px; 
+    flex-direction: row;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 10px;
+    column-gap: 20px;
+    row-gap : 20px;
+  }
+
+  .button{
+    margin : 10px;
+  }
+
+  .imgcontainer {
+    background: #9bc0d5;
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+  }
